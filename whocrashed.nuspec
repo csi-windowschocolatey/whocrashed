@@ -16,7 +16,7 @@ Analyzes existing crash dumps and tries to determine and state the root cause in
     <tags>Crash Dump, Debugging</tags>
     <copyright>Resplendence Software Projects Sp.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/csi-windowschocolatey/registrymanager/master/appicon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/csi-windowschocolatey/whocrashed/master/appicon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

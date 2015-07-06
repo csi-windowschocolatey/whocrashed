@@ -1,7 +1,7 @@
 ﻿$packageName = 'whocrashed'
 $installerType = 'EXE'
 $url = 'http://www.resplendence.com/download/whocrashedSetup.exe'
-$silentArgs = "/VERYSILENT /NORESTART /LOG"
+$silentArgs = "/VERYSILENT /NORESTART /LOG=`"$env:temp\CHOCO-INSTALL-whocrashed.log`""
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" -validExitCodes $validExitCodes
